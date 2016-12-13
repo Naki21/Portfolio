@@ -1,5 +1,6 @@
 'use strict';
-
+// Load all Bootstrap JavaScript
+//= require bootstrap-sprockets
 // user require with a reference to bundle the file and use it in this file
 // var example = require('./example');
 

@@ -3,12 +3,14 @@
 let webpack = require('webpack');
 let path = require('path');
 
+
+
 module.exports = {
   options: {
     entry: {
       bundle: './index.js',
       specs: './spec/_all.js',
-      vendor: ['jquery', 'bootstrap-sass'],
+      vendor: ['jquery', 'bootstrap-sass', 'owl.carousel'],
     },
 
     output: {
